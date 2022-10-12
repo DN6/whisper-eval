@@ -19,7 +19,7 @@ The notebook sets up a Gradio UI that allows the user to:
 
 <img width="1038" alt="whisper-eval" src="https://user-images.githubusercontent.com/7529846/195259707-bc19d0e2-1d0a-4b9e-918f-f686e8bef533.png">
 
-To use the Evaluation UI, you will need a [Comet](https://www.comet.com/signup?utm_source=colab&utm_medium=referral&utm_campaign=AMS_US_EN_SNUP_Online_WhisperAI_Notebook) account.
+To use the Evaluation UI, you will need a [Comet](https://www.comet.com/site/?utm_source=github&utm_medium=referral&utm_campaign=AMS_US_EN_SNUP_Online_WhisperAI_Notebook) account.
 
 The UI has the following input components
 
