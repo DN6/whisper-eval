@@ -31,3 +31,34 @@ The UI has the following input components
 
 Finally hit the Transcribe button. That's it! All the relevant data will be logged to Comet for further analysis.
 
+## Logging Evaluations to Comet
+
+The Evaluation UI will log the following data to a Comet Experiment.
+
+You can check out an example project [here](https://www.comet.com/team-comet-ml/evalwhisper/view/RZVIJKQQnFHDe9R9MVnDmt2Hu/panels?utm_source=github&utm_medium=referral&utm_campaign=AMS_US_EN_SNUP_Online_WhisperAI_Notebook)
+
+
+### Model Parameters
+1. Model Type (tiny, base, small, medium etc)
+2. Beam Search Width
+3. Model Language
+
+### Dataset Parameters
+
+1. Dataset Name
+2. Dataset Subset
+3. Column in the Dataset that contained the text
+4. Split (`train`, `test`,  etc.) of the dataset
+5. Seed used to sample the text passage from the dataset
+6. Sample Text Length
+
+### Model Metrics
+
+1. Word Error Rate Score
+
+### Evaluation Assets
+1. Audio Snippet of the narrated text
+2. Reference/Sampled Text
+3. Transcribed Text
+
+https://user-images.githubusercontent.com/7529846/195363714-b613755c-b77c-49f4-a1f8-e3c0f5d90be1.mp4
